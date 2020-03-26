@@ -16,11 +16,11 @@ class Bsc < Formula
   end
 
   depends_on "autoconf" => :build
-  depends_on "cabal-install" => :build
-  depends_on "fontconfig" => :build
-  depends_on "ghc" => :build
-  depends_on "gperf" => :build
-  depends_on "icarus-verilog" => :build
+  depends_on "cabal-install"
+  depends_on "fontconfig"
+  depends_on "ghc"
+  depends_on "gperf"
+  depends_on "icarus-verilog"
   depends_on "pkg-config" => :build
 
   def install
