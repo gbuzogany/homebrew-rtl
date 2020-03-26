@@ -8,7 +8,7 @@ class Bsc < Formula
   bottle do
     root_url "https://dl.bintray.com/bracketmaster/bottles-rtl"
     cellar :any
-    sha256 "e4da8ffb0b9fb3a3250b24d70786497aa25eda55c31a741ec3ab0621359f0586" => :catalina
+    sha256 "d4168972b195b2c30e45ad70c6303967e8693240fc78d8f499aa0e4de75ddb74" => :catalina
   end
 
   depends_on "autoconf" => :build
