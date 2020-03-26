@@ -5,6 +5,12 @@ class Bsc < Formula
   version "2017.07.A"
   sha256 "03bdb147e8c68657a713c0977fa9f66524d4d4f1be0bdcfb8235d44918d8051f"
 
+  bottle do
+    root_url "https://dl.bintray.com/bracketmaster/bottles-rtl"
+    cellar :any
+    sha256 "e4da8ffb0b9fb3a3250b24d70786497aa25eda55c31a741ec3ab0621359f0586" => :catalina
+  end
+
   depends_on "autoconf" => :build
   depends_on "cabal-install" => :build
   depends_on "fontconfig" => :build
