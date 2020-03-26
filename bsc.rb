@@ -11,6 +11,10 @@ class Bsc < Formula
     sha256 "d4168972b195b2c30e45ad70c6303967e8693240fc78d8f499aa0e4de75ddb74" => :catalina
   end
 
+  head do
+    url "https://github.com/B-Lang-org/bsc", :using => :git
+  end
+
   depends_on "autoconf" => :build
   depends_on "cabal-install" => :build
   depends_on "fontconfig" => :build
