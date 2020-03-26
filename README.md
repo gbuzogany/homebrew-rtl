@@ -14,3 +14,11 @@ Get this tap:
 Instal the tool you want, for example bluespec verilog:
 
     $ brew install bsc
+
+# Building From Source
+You can also build these tools from source as they
+all use git VCS.
+
+Example:
+
+    $ brew install --HEAD bsc
