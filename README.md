@@ -1,2 +1,2 @@
-# RTLFOSS
+# FOSS RTL Toools
 Homebrew Tap for BluesSpec Verilog, NextPNR, PRJTrellis etc...
