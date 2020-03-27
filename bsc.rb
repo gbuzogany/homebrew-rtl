@@ -6,9 +6,9 @@ class Bsc < Formula
   sha256 "03bdb147e8c68657a713c0977fa9f66524d4d4f1be0bdcfb8235d44918d8051f"
 
   bottle do
-    root_url "https://dl.bintray.com/bracketmaster/bottles-rtl"
+    root_url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0"
     cellar :any
-    sha256 "d4168972b195b2c30e45ad70c6303967e8693240fc78d8f499aa0e4de75ddb74" => :catalina
+    sha256 "dfef6397e6674b56c3f2b0e274e34c7c50ab0d3b89ef2d01ec3660c92ad520c1" => :catalina
   end
 
   head do
