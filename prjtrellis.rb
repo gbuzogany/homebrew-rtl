@@ -7,7 +7,6 @@ class Prjtrellis < Formula
 
   head do
     url "https://github.com/SymbiFlow/prjtrellis", :using => :git
-
   end
 
   depends_on "cmake" => :build
