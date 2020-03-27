@@ -14,9 +14,16 @@ Get this tap:
 Instal the tool you want, for example bluespec verilog:
 
     $ brew install bsc
+    
+Or everything - installing nextpnr also install prjtrellis and icestorm
+    $ brew install bsc nextpnr
 
-# Building From Source
-You can also build these tools from source as they
+Pre-packages binaries are available as bottle for MacOS.
+
+On Linux, the bottles will be built from source. I hope to provide Linux bottles soon too.
+
+# Building Directly From Git Source
+You can also build these tools from their githuib source as they
 all use git VCS.
 
 Example:
