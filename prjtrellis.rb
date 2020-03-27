@@ -5,6 +5,12 @@ class Prjtrellis < Formula
   url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0/prjtrellis.tar.gz"
   sha256 "03a6194aa0c5cf4c00d0af62db73ce7d7871deb17e0325624f9372aa8a4ff9d9"
 
+  bottle do
+    root_url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0/"
+    cellar :any
+    sha256 "acf7cf521850b3c1e2feb181ed6b30e9653d80b1c62ea3ed09d906e42e735172" => :catalina
+  end
+
   head do
     url "https://github.com/SymbiFlow/prjtrellis", :using => :git
   end
