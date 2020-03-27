@@ -11,15 +11,15 @@ Get this tap:
 
     $ brew tap bracketmaster/rtl
 
-Instal the tool you want, for example bluespec verilog:
+Install the tool you want, for example bluespec verilog:
 
     $ brew install bsc
     
-Or install everything - installing nextpnr also install prjtrellis and icestorm
+Or install everything - installing nextpnr also installs prjtrellis and icestorm
 
     $ brew install bsc nextpnr
 
-Pre-packaged binaries are available as bottle for MacOS.
+Pre-packaged binaries are available as bottles for MacOS.
 
 On Linux, the tools will be built from source. I hope to provide Linux bottles soon too.
 
