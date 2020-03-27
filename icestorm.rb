@@ -5,6 +5,12 @@ class Icestorm < Formula
   url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0/icestorm.tar.gz"
   sha256 "ccb5aed3e3ba12fbd512ef75111fb90bc32733a8503195c24e81401d0b71fb5a"
 
+  bottle do
+    root_url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0"
+    cellar :any
+    sha256 "ee2586e0c0373c5a7aab8fd26896ac6a48d35f1325a681c7fbad6c6654d67287" => :catalina
+  end
+
   head do
     url "https://github.com/cliffordwolf/icestorm", :using => :git
   end
