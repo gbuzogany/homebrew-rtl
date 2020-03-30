@@ -9,6 +9,7 @@ class Bsc < Formula
     root_url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0"
     cellar :any
     sha256 "dfef6397e6674b56c3f2b0e274e34c7c50ab0d3b89ef2d01ec3660c92ad520c1" => :catalina
+    sha256 "b73409f1ae2180e446f9a9f1946773b62bcafa1b66734e29adfa78efbc1c6b19" => :high_sierra
   end
 
   head do
