@@ -19,8 +19,7 @@ class Nextpnr < Formula
   bottle do
     root_url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0"
     cellar :any
-    sha256 "779cbbee58781c95459c155c6a574267f8d9d9817779252f13defef51d01a4f2" => :catalina
-    sha256 "19f3d0abdffe677fb9e01123001a4eaa9a202777d9458152a0dd09fcd610012e" => :high_sierra
+    sha256 "76e80a6759b41f993dad8921d974716752da05ca4a2d33ebb01a55221da51cd2" => :high_sierra
   end
 
   def install

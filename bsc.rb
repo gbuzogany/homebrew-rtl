@@ -8,8 +8,7 @@ class Bsc < Formula
   bottle do
     root_url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0"
     cellar :any
-    sha256 "dfef6397e6674b56c3f2b0e274e34c7c50ab0d3b89ef2d01ec3660c92ad520c1" => :catalina
-    sha256 "b73409f1ae2180e446f9a9f1946773b62bcafa1b66734e29adfa78efbc1c6b19" => :high_sierra
+    sha256 "9777eccd1438a8fa1ec3354c689fbce27e38fe4a22fe9ca0f7dbc8164ba06083" => :high_sierra
   end
 
   head do
@@ -20,6 +19,7 @@ class Bsc < Formula
   depends_on "cabal-install"
   depends_on "fontconfig"
   depends_on "ghc"
+  depends_on "gmp"
   depends_on "gperf"
   depends_on "icarus-verilog"
   depends_on "pkg-config" => :build
@@ -42,7 +42,7 @@ class Bsc < Formula
            "PREFIX=#{libexec}",
            "GHCJOBS=4",
            "GHCRTSFLAGS=+RTS -M4500M -A128m -RTS",
-           "MACOSX_DEPLOYMENT_TARGET=10.15"
+           "MACOSX_DEPLOYMENT_TARGET=10.13"
 
     bin.write_exec_script(bsc)
     bin.write_exec_script(bluetcl)
