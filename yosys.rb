@@ -6,6 +6,11 @@ class Yosys < Formula
   revision 2
   head "https://github.com/YosysHQ/yosys.git"
 
+  bottle do
+    root_url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0"
+    sha256 "956cf3935fbe3d09eef7f1fd23deb3b987025d34dce6e0cf3bcebf5656c4dc07" => :x86_64_linux
+  end
+
   depends_on "bison" => :build
   depends_on "pkg-config" => :build
   depends_on "flex" => :build
