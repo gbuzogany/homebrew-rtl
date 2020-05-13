@@ -11,6 +11,7 @@ class BinutilsMipsElf < Formula
   end
     
     uses_from_macos "zlib"
+    depends_on "texinfo" => :build
   
     def install
       system "./configure", "--prefix=#{prefix}",
