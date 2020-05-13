@@ -16,6 +16,8 @@ class BinutilsMipsElf < Formula
   
     def install
       system "./configure", "--prefix=#{prefix}",
+                            "--infodir=#{libexec}",
+                            "--mandir=#{libexec}",
                             "--disable-werror",
                             "--target=mips-elf"
       system "make"
