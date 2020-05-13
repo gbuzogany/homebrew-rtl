@@ -8,6 +8,7 @@ class BinutilsMipsElf < Formula
   bottle do
     root_url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0"
     sha256 "1e141b49b9c8184f5b85519a02b364663fe7975b9f8090e7b4db3fce79eb7c86" => :high_sierra
+    sha256 "3cd199f0fc3e865caf31835c7a57b2c19e5f4918c719da85be8a9327722ac0e1" => :x86_64_linux
   end
     
     uses_from_macos "zlib"
