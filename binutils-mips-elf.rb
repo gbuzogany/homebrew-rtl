@@ -8,23 +8,19 @@ class BinutilsMipsElf < Formula
   bottle do
     root_url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0"
     sha256 "1e141b49b9c8184f5b85519a02b364663fe7975b9f8090e7b4db3fce79eb7c86" => :high_sierra
-    sha256 "3cd199f0fc3e865caf31835c7a57b2c19e5f4918c719da85be8a9327722ac0e1" => :x86_64_linux
+    sha256 "96ec0c4d6c27c61e1c6344ef7474015ed764a6c41dd56730c0dc58f6ae92433f" => :x86_64_linux
   end
     
     uses_from_macos "zlib"
     depends_on "texinfo" => :build
   
     def install
-      system "./configure", "--prefix=#{prefix}",
-                            "--infodir=#{libexec}",
-                            "--mandir=#{libexec}",
+      system "./configure", "--prefix=#{libexec}",
+                            "--bindir=#{prefix}/bin",
                             "--disable-werror",
                             "--target=mips-elf"
       system "make"
       system "make", "install"
-      #Dir["#{bin}/*"].each do |f|
-      #  bin.install_symlink f => File.basename(f)
-      #end
     end
   
     test do
