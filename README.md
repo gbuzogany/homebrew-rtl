@@ -1,8 +1,8 @@
 # FOSS RTL Toools
 Homebrew Tap for BluesSpec Verilog, NextPNR, PRJTrellis etc...
 This started out as a personal project, but its now used
-in Georgia Tech's computer architecture class, particulary with 
-getting a build of Yosys going on both Homebrew MacOS and LinuxBrew.
+in Georgia Tech's computer architecture [class](https://comparch-resources.ece.gatech.edu),
+particulary with getting a build of Yosys going on both Homebrew MacOS and LinuxBrew.
 
 ## Installation
 
