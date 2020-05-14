@@ -9,6 +9,7 @@ class Yosys < Formula
   bottle do
     root_url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0"
     sha256 "956cf3935fbe3d09eef7f1fd23deb3b987025d34dce6e0cf3bcebf5656c4dc07" => :x86_64_linux
+    sha256 "f5936eafc40797ee2eadd0a861bfe0d231b334a78ccf35d0cbc7da56f3419795" => :high_sierra
   end
 
   depends_on "bison" => :build
