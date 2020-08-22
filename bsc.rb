@@ -3,7 +3,7 @@ class Bsc < Formula
   homepage "https://github.com/B-Lang-org/bsc"
   url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0/bsc.tar.gz"
   version "2017.07.A"
-  sha256 "a0b290f268ae0bc44d3140b890a44f5c4e5fe65af1e62d4bdae9b857b3417b29"
+  sha256 "b73409f1ae2180e446f9a9f1946773b62bcafa1b66734e29adfa78efbc1c6b19"
 
   bottle do
     root_url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0"
