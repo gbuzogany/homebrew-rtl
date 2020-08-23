@@ -33,3 +33,11 @@ all use git VCS.
 Example:
 
     $ brew install --HEAD bsc
+
+# Changing Into Local Homebrew Clone
+
+Keep forgetting how to do this.
+
+```
+cd `brew --repository bracketmaster/rtl`
+```
