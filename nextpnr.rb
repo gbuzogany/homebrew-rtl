@@ -4,6 +4,7 @@ class Nextpnr < Formula
   homepage "https://github.com/YosysHQ/nextpnr"
   url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0/nextpnr.tar.gz"
   sha256 "70259bc677328d84177fa9232d5cb9058a5c9177f360718b6a151fe85cc5aaa8"
+  head "https://github.com/YosysHQ/nextpnr"
 
   depends_on "cmake" => :build
   depends_on "make" => :build
