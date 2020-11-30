@@ -16,10 +16,9 @@ class Prjtrellis < Formula
   end
 
   depends_on "cmake" => :build
-  depends_on "python3"
+  depends_on "python@3.8"
   depends_on "boost"
   depends_on "boost-python3"
-  depends_on "open-ocd"
   depends_on "git"
   depends_on "yosys"
 
