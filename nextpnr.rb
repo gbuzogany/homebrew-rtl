@@ -31,8 +31,7 @@ class Nextpnr < Formula
            "-DCMAKE_INSTALL_PREFIX=#{prefix}"
            "."
 
-    system "make",
-           "-j#{CPU.cores}"
+    system "make"
 
     system "make",
            "install"
