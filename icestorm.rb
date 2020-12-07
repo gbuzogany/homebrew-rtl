@@ -21,7 +21,7 @@ class Icestorm < Formula
   depends_on "autoconf" => :build
   depends_on "make" => :build
   depends_on "mercurial" => :build
-  depends_on "python3"
+  depends_on "python@3.9"
   depends_on "boost"
   depends_on "boost-python3"
   depends_on "libftdi0"
