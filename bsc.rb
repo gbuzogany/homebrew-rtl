@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Bsc < Formula
   desc "BlueSpec Verilog Compiler and Simulator"
   homepage "https://github.com/B-Lang-org/bsc"
@@ -7,22 +10,21 @@ class Bsc < Formula
 
   bottle do
     root_url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0"
-    cellar :any
-    sha256 "b73409f1ae2180e446f9a9f1946773b62bcafa1b66734e29adfa78efbc1c6b19" => :high_sierra
+    sha256 cellar: :any, high_sierra: "b73409f1ae2180e446f9a9f1946773b62bcafa1b66734e29adfa78efbc1c6b19"
   end
 
   head do
-    url "https://github.com/B-Lang-org/bsc", :using => :git
+    url "https://github.com/B-Lang-org/bsc", using: :git
   end
 
   depends_on "autoconf" => :build
+  depends_on "pkg-config" => :build
   depends_on "cabal-install"
   depends_on "fontconfig"
   depends_on "ghc"
   depends_on "gmp"
   depends_on "gperf"
   depends_on "icarus-verilog"
-  depends_on "pkg-config" => :build
 
   def install
     bsc = "#{libexec}/bin/bsc"

@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Yosys < Formula
   desc "Framework for Verilog RTL synthesis"
   homepage "http://www.clifford.at/yosys/"
@@ -8,15 +11,15 @@ class Yosys < Formula
 
   bottle do
     root_url "https://github.com/BracketMaster/homebrew-rtl/releases/download/v1.0"
-    sha256 "956cf3935fbe3d09eef7f1fd23deb3b987025d34dce6e0cf3bcebf5656c4dc07" => :x86_64_linux
-    sha256 "f5936eafc40797ee2eadd0a861bfe0d231b334a78ccf35d0cbc7da56f3419795" => :high_sierra
+    sha256 x86_64_linux: "956cf3935fbe3d09eef7f1fd23deb3b987025d34dce6e0cf3bcebf5656c4dc07"
+    sha256 high_sierra:  "f5936eafc40797ee2eadd0a861bfe0d231b334a78ccf35d0cbc7da56f3419795"
   end
 
   depends_on "bison" => :build
-  depends_on "pkg-config" => :build
   depends_on "flex" => :build
-  depends_on "make" => :build
   depends_on "git" => :build
+  depends_on "make" => :build
+  depends_on "pkg-config" => :build
   depends_on "tcl-tk" => :build
   depends_on "libffi"
   depends_on "python@3.8"
